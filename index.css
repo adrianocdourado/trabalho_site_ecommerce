@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.topo{
+    background: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+        
+}
+
+input[type=text] {
+    position: fixed;
+    border-radius: 5px;
+    text-align: center;
+    height: 41px;
+    top: 2%;
+    box-sizing: border-box;
+    right:31%;
+    width: 640px;
+    border: none;
+    outline: none;
+    color: #FF8000;
+        
+}
+
+.logo{
+	position: fixed;
+	top: 6px;
+	left: 200px;
+  cursor: pointer;
+}
+
+/*MENU*/
+.menu{
+    position: fixed;
+    text-align: center;
+    background-color:#FF8000;
+    width: 100%;       
+    top: 80px;
+    border-style: solid;
+    border-color: #FF8000;
+}
+
+li{
+    display: inline-block;
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 3px 5px;
+    font-weight: 900;
+    font-size: large;   
+}
+
+li a:hover{
+    text-shadow:  1px 1px 7px black   
+}
+
+
+#login{
+	position: fixed;
+	top: 11px;
+	left: 1300px;
+}
+#cadastro{
+	position: fixed;
+	top: 12px;
+	left: 1380px;
+}
+
+
+
+/* SLIDES */
+.slider-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 118px;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 2.13s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    height: 60%;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    text-shadow:8px 0px 8px black;
+  }
+  
+  .prev {
+    left: 30px;
+  }
+  
+  .next {
+    right: 40px;
+  }
+
+
+  /* Produtos*/
+
+div.lista{
+ 
+  display: flex;
+  width: 1400px; 
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 30px;
+  justify-content: center;
+  
+}
+
+div.item{
+  text-align: center;
+  padding: 50px;
+  width: 150px;
+  height: 250px;
+  margin: 12px;
+  box-shadow: -1px -1px 10px rgb(179, 178, 178);
+  border-radius: 5px;
+}
+
+div.item:hover{
+  background-color:white ;
+  cursor: pointer;
+  box-shadow: 1px 1px 15px #FF8000;
+  border-style: solid;
+  border-color: #FF8000;
+}
+
+.item{
+  width: auto;
+  height: auto;
+
+}
+
+
+
+footer {
+  width: 100%;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#FF8000;
+  color: #ffffff;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+
+.tarja{
+  
+  background-color: #FF8000;
+  color: white;
+} 
+
+.preco{
+  background-color: green;
+  color: white;
+}
